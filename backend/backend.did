@@ -1,3 +1,4 @@
 service : {
-  greet: () -> (text);
+  getImage: () -> (blob);
+  upload: (blob) -> ();
 }

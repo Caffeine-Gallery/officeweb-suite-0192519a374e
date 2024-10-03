@@ -1,0 +1,5 @@
+type Blob = vec nat8;
+service : {
+  getImage : () -> (Blob) query;
+  upload : (Blob) -> ();
+}
