@@ -10,6 +10,15 @@
     <header>
         <img src="images/office-365-logo.svg" alt="Microsoft Office Logo" id="office-logo">
     </header>
+    <main>
+        <h2>Upload an Image</h2>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" required>
+            <button type="submit">Upload</button>
+        </form>
+        <h2>Uploaded Image</h2>
+        <img src="/uploads/image.png" alt="Uploaded Image" id="uploaded-image">
+    </main>
     <script type="module" src="index.js"></script>
 </body>
 </html>
